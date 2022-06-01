@@ -10,6 +10,10 @@
     ".": {
       "node": "./dist/node.js",
       "default": "./dist/browser.js"
+    },
+    "./register": {
+      "node": "./dist/register/node.js",
+      "default": "./dist/register/browser.js"
     }
   },
   "scripts": {

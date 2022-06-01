@@ -4,9 +4,14 @@
   "description": "A tiny isomoprhic Fetch function, it just gives you the native one if available, or the one from undici.",
   "version": "1.0.0",
   "type": "module",
-  "main": "dist/index.js",
-  "exports": "./dist/index.js",
-  "types": "./dist/index.d.ts",
+  "main": "dist/browser.js",
+  "types": "./dist/browser.d.ts",
+  "exports": {
+    ".": {
+      "node": "./dist/node.js",
+      "default": "./dist/browser.js"
+    }
+  },
   "scripts": {
     "clean": "tsex clean",
     "compile": "tsex compile",

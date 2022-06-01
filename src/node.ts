@@ -6,4 +6,4 @@ import {fetch} from 'undici';
 
 /* EXPORT */
 
-export default fetch;
+export default globalThis.fetch || fetch;

@@ -1,0 +1,33 @@
+{
+  "name": "fetch-shim",
+  "repository": "github:fabiospampinato/fetch-shim",
+  "description": "A tiny isomoprhic Fetch function, it just gives you the native one if available, or the one from undici.",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "dist/index.js",
+  "exports": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "clean": "tsex clean",
+    "compile": "tsex compile",
+    "compile:watch": "tsex compile --watch",
+    "test": "tsex test",
+    "test:watch": "tsex --watch",
+    "prepublishOnly": "npm run clean && npm run compile && npm run test"
+  },
+  "keywords": [
+    "fetch",
+    "shim",
+    "isomorphic",
+    "web",
+    "node"
+  ],
+  "dependencies": {
+    "undici": "^5.4.0"
+  },
+  "devDependencies": {
+    "fava": "^0.0.6",
+    "tsex": "^1.1.2",
+    "typescript": "^4.7.2"
+  }
+}

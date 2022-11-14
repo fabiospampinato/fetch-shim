@@ -1,6 +1,8 @@
 
 /* MAIN */
 
+//TODO: Remove this eventually, once the warnings are deleted in an LTS version of Node
+
 // The following silences some warnings that undici triggers, not ideal, but those warnings are too annoying
 
 const _emitWarning = globalThis['process']['emitWarning'];

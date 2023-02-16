@@ -2,7 +2,7 @@
   "name": "fetch-shim",
   "repository": "github:fabiospampinato/fetch-shim",
   "description": "An isomoprhic Fetch function, it just gives you the native one if available, or the one from undici.",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "type": "module",
   "main": "dist/browser.js",
   "types": "./dist/browser.d.ts",

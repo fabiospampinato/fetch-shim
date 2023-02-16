@@ -1,6 +1,6 @@
 # Fetch Shim
 
-A tiny isomoprhic Fetch function, it just gives you the native one if available, or the one from [`undici`](https://github.com/nodejs/undici).
+An isomoprhic Fetch function, it just gives you the native one if available, or the one from [`undici`](https://github.com/nodejs/undici).
 
 ## Install
 
